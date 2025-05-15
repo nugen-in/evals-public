@@ -52,11 +52,6 @@ Additionally, we conducted qualitative assessments of:
 
 This comprehensive evaluation framework enables us to assess not only raw accuracy but also the models' deeper understanding of Indian legal principles, conventions, and reasoning patterns—critical factors for practical application in the Indian legal context.
 
-You can find the evaluation report and dataset on the public repository at:
-
-- [Evaluation Dataset](https://github.com/nugen-in/evals-public/blob/main/domain/legal/AIBE)
-
-
 ## Comprehensive Performance Analysis
 
 ### Overall Accuracy Comparison
@@ -81,7 +76,9 @@ Courteasy-v1 achieved the highest accuracy on AIBE-18 (87.0%), significantly out
 
 ### Detailed Score Distribution Analysis
 
-![Figure 2: Correctness Score Distribution](plots/figure2_correctness_scores.png)
+![Figure 2a: Correctness Score Distribution (AIBE-18)](plots/figure2a_correctness_scores_aibe18.png)
+
+![Figure 2b: Correctness Score Distribution (AIBE-19)](plots/figure2b_correctness_scores_aibe19.png)
 
 *Figure 2: Distribution of correctness scores (1-5 scale) for all models across both exams*
 
@@ -107,7 +104,9 @@ Tables 2 and 3 present the correctness score distributions for both exams:
 
 The correctness score distribution reveals Courteasy-v1's exceptional performance quality. In AIBE-18, it achieved 81 perfect scores (score 5), significantly more than any other model. This indicates not just correct answers but comprehensive and authoritative explanations—the hallmark of a model fine-tuned on authentic Indian legal materials.
 
-![Figure 3: Similarity Score Distribution](plots/figure3_similarity_scores.png)
+![Figure 3a: Similarity Score Distribution (AIBE-18)](plots/figure3a_similarity_scores_aibe18.png)
+
+![Figure 3b: Similarity Score Distribution (AIBE-19)](plots/figure3b_similarity_scores_aibe19.png)
 
 *Figure 3: Distribution of similarity scores (1-5 scale) for all models across both exams*
 
@@ -329,6 +328,5 @@ For legal professionals, educators, and students seeking AI assistance with Indi
 
 # Resources
 
-You can find this report and the evaluation dataset at Nugen's public evaluation repository at:
-- [Evaluation Sheets and Report](https://github.com/nugen-in/evals-public/blob/main/domain/legal/AIBE)
+You can find this report and the evaluation dataset at Nugen's public evaluation repository - [Evaluation Sheets and Report](https://github.com/nugen-in/evals-public/blob/main/domain/legal/AIBE).
 
