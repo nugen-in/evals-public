@@ -2,7 +2,9 @@
 
 ## Introduction
 
-The legal landscape in India is undergoing rapid digital transformation, with artificial intelligence increasingly being employed to assist legal professionals, students, and citizens. This report presents a detailed evaluation of the legal AI model Court Easy AI developed by Nugen Intelligence on its ability to answer complex legal questions from All India Bar Examination (AIBE) datasets. Our analysis reveals compelling evidence that Court Easy AI, fine-tuned specifically on Indian legal statutes and case judgements, demonstrates impressive capabilities in navigating the intricacies of Indian law. Notably, Court Easy AI achieves scores that significantly exceed the official 45% passing threshold for the AIBE examinations, marking a milestone as the first AI system to consistently demonstrate professional-grade competency equivalent to qualified legal practitioners in India. This breakthrough suggests transformative potential for AI integration into legal services, education, and access to justice initiatives across the Indian legal ecosystem.
+The legal landscape in India is undergoing rapid digital transformation, with artificial intelligence increasingly being employed to assist legal professionals, students, and citizens. This report presents a detailed evaluation of Court Easy AI developed by Nugen Intelligence on its ability to answer complex legal questions from All India Bar Examination (AIBE) datasets. Our analysis reveals compelling evidence that Court Easy AI, trained specifically on Indian legal statutes and case judgements, demonstrates impressive capabilities in navigating the intricacies of Indian law. Notably, Court Easy AI achieves scores that significantly exceed the official 45\% passing threshold for the AIBE examinations, marking a milestone as the first AI to consistently demonstrate professional-grade competency equivalent to qualified legal practitioners in India. This breakthrough suggests transformative potential for AI integration into legal services, education, and access to justice initiatives across the Indian legal ecosystem.
+
+Court Easy AI is powered by Nugen Intelligence's Domain Aligned AI technology, a fundamental innovation in creating reliable AI for specialized professional domains. This technology enables Court Easy AI to maintain high precision and trustworthiness within strict legal boundaries, addressing a critical challenge for AI operating in environments where errors are unacceptable.
 
 ## Methodology and Dataset Overview
 
@@ -21,13 +23,13 @@ After excluding withdrawn questions to ensure evaluation integrity, our final as
 
 The questions span the breadth of the Indian legal system, including constitutional law, criminal law, civil procedure, family law, contract law, labor law, and administrative law. Notably, AIBE-19 incorporated questions on the newly enacted Bhartiya Nyaya Sanhita (BNS), Bhartiya Nagarik Suraksha Sanhita (BNSS), and Bharatiya Sakshya Adhiniyam (BSA)—legislation that replaced longstanding Indian criminal, procedural, and evidence codes. This temporal difference between datasets allowed us to evaluate how Court Easy AI performs on both established legal principles and recent legislative developments.
 
-Each question in the dataset was accompanied by multiple-choice options and an authoritative ground truth answer explanation, providing a standardized benchmark for model evaluation.
+Each question in the dataset was accompanied by multiple-choice options and an authoritative ground truth answer explanation, providing a standardized benchmark for Court Easy AI evaluation.
 
 ### Evaluation Criteria and Metrics
 
 We evaluated the performance of Court Easy AI using a multi-dimensional assessment framework designed to capture both factual accuracy and qualitative aspects of legal reasoning. Our evaluation metrics included:
 
-1. **Binary Correctness Classification**: Basic correct/incorrect determination, measuring whether the model identified the correct legal answer option. This metric provides a straightforward accuracy percentage.
+1. **Binary Correctness Classification**: Basic correct/incorrect determination, measuring whether Court Easy AI identified the correct legal answer option. This metric provides a straightforward accuracy percentage.
 
 2. **Correctness Score (1-5 scale)**: A nuanced assessment of factual accuracy and legal reasoning, where:
    - Score 5: Perfect answer with comprehensive legal reasoning
@@ -36,7 +38,7 @@ We evaluated the performance of Court Easy AI using a multi-dimensional assessme
    - Score 2: Partially correct with significant reasoning gaps
    - Score 1: Incorrect answer or fundamentally flawed reasoning
 
-3. **Similarity Score (1-5 scale)**: Measures how closely the model's explanation aligns with authoritative legal explanations from the ground truth, where:
+3. **Similarity Score (1-5 scale)**: Measures how closely Court Easy AI's explanation aligns with authoritative legal explanations from the ground truth, where:
    - Score 5: Perfect alignment with authoritative explanation
    - Score 4: Strong alignment with minor stylistic differences
    - Score 3: Moderate alignment with some structural differences
@@ -50,7 +52,7 @@ Additionally, we conducted qualitative assessments of:
 - Technical accuracy in section number references
 - Appropriate use of Indian legal terminology
 
-This comprehensive evaluation framework enables us to assess not only raw accuracy but also the model's deeper understanding of Indian legal principles, conventions, and reasoning patterns—critical factors for practical application in the Indian legal context.
+This comprehensive evaluation framework enables us to assess not only raw accuracy but also Court Easy AI's deeper understanding of Indian legal principles, conventions, and reasoning patterns—critical factors for practical application in the Indian legal context.
 
 ## Court Easy AI's Performance Analysis
 
@@ -86,7 +88,7 @@ Figure 2 illustrates the distribution of Court Easy AI's correctness scores acro
 | AIBE-18 | 81 | 0 | 0 | 1 | 10 | 92 |
 | AIBE-19 | 69 | 1 | 1 | 2 | 20 | 93 |
 
-The correctness score distribution reveals Court Easy AI's exceptional performance quality. In AIBE-18, it achieved 81 perfect scores (score 5). This indicates not just correct answers but comprehensive and authoritative explanations—the hallmark of a model fine-tuned on authentic Indian legal materials.
+The correctness score distribution reveals Court Easy AI's exceptional performance quality. In AIBE-18, it achieved 81 perfect scores (score 5). This indicates not just correct answers but comprehensive and authoritative explanations—the hallmark of a Court Easy AI trained on authentic Indian legal materials.
 
 Figure 3 shows the similarity score distribution for Court Easy AI's responses:
 
@@ -101,15 +103,15 @@ Figure 3 shows the similarity score distribution for Court Easy AI's responses:
 | AIBE-18 | 72 | 6 | 2 | 6 | 6 | 92 |
 | AIBE-19 | 47 | 22 | 0 | 12 | 12 | 93 |
 
-The similarity score distributions yield interesting insights into Court Easy AI's response style. The model demonstrates both high similarity and correctness—evidence of deep substantive knowledge of Indian legal principles combined with appropriate legal expression.
+The similarity score distributions yield interesting insights into Court Easy AI's response style. Court Easy AI demonstrates both high similarity and correctness—evidence of deep substantive knowledge of Indian legal principles combined with appropriate legal expression.
 
 ## Court Easy AI Surpasses Bar Examination Standards
 
 Court Easy AI's performance is particularly notable when compared to the official passing threshold for the All India Bar Examination. With the established cutoff marks of 45% for both AIBE-18 and AIBE-19, equivalent to correctly answering 41 questions out of 92 for AIBE-18 and 42 questions out of 93 for AIBE-19, Court Easy AI not only meets but significantly exceeds these standards. 
 
-The model correctly answered 80 questions (87.0%) in AIBE-18 and 68 questions (73.1%) in AIBE-19, surpassing the minimum requirements by 39 and 26 questions respectively. This remarkable achievement positions Court Easy AI as the first AI system to consistently demonstrate professional-grade competency in Indian legal examinations, effectively passing the same qualification test required of human legal practitioners in India. 
+Court Easy AI correctly answered 80 questions (87.0%) in AIBE-18 and 68 questions (73.1%) in AIBE-19, surpassing the minimum requirements by 39 and 26 questions respectively. This remarkable achievement positions Court Easy AI as the first AI to consistently demonstrate professional-grade competency in Indian legal examinations, effectively passing the same qualification test required of human legal practitioners in India. 
 
-Court Easy AI's performance margin—particularly its 42 percentage points above the passing requirement on AIBE-18—demonstrates that AI systems with specialized legal training can now function at levels comparable to qualified legal professionals, opening new possibilities for AI-assisted legal services, education, and research in the Indian context.
+Court Easy AI's performance margin—particularly its 42 percentage points above the passing requirement on AIBE-18—demonstrates that AI with specialized legal training can now function at levels comparable to qualified legal professionals, opening new possibilities for AI-assisted legal services, education, and research in the Indian context.
 
 ## Detailed Error Analysis
 
@@ -137,7 +139,7 @@ Figure 4 presents Court Easy AI's error distribution across different legal cate
 | Other Areas | 3 | 4 |
 | **Total Errors** | **12** | **25** |
 
-The error distribution reveals Court Easy AI's specialized strengths. In AIBE-18, it made only one error in criminal law, highlighting its exceptional knowledge in this area. This strong performance in criminal law directly reflects Court Easy AI's fine-tuning on Indian case judgements, where criminal matters constitute a significant portion of high court and Supreme Court jurisprudence.
+The error distribution reveals Court Easy AI's specialized strengths. In AIBE-18, it made only one error in criminal law, highlighting its exceptional knowledge in this area. This strong performance in criminal law directly reflects Court Easy AI's training on Indian case judgements, where criminal matters constitute a significant portion of high court and Supreme Court jurisprudence.
 
 In AIBE-19, Court Easy AI faced more challenges with criminal law questions, making 5 errors. The increased errors in constitutional law (5) for Court Easy AI in AIBE-19 primarily involved questions about recent constitutional amendments, suggesting an area for focused improvement.
 
@@ -179,11 +181,11 @@ Beyond mere accuracy, Court Easy AI distinguished itself in producing responses 
 
 1. **Indian-style Legal Citations**: Court Easy AI consistently used the distinctive Indian case citation format (e.g., "AIR 2019 SC 1234") and referenced sections in the Indian style (e.g., "Section 34 of IPC" rather than "34 IPC"), reflecting training on Indian legal documents.
 
-2. **Indigenous Legal Terminology**: The model correctly employed India-specific legal terms like "suit" (rather than "case") in civil procedure contexts, "cognizable offense" in criminal contexts, and "vakalatnama" when discussing legal representation—terms prevalent in Indian legal practice but rare in global legal discourse.
+2. **Indigenous Legal Terminology**: Court Easy AI correctly employed India-specific legal terms like "suit" (rather than "case") in civil procedure contexts, "cognizable offense" in criminal contexts, and "vakalatnama" when discussing legal representation—terms prevalent in Indian legal practice but rare in global legal discourse.
 
 3. **Context-Appropriate Statutory References**: Court Easy AI regularly and correctly cited Indian-specific statutes like the Transfer of Property Act, Hindu Marriage Act, and Code of Civil Procedure with appropriate section numbers—suggesting extensive exposure to these legal texts during training.
 
-4. **Judicial Precedent Application**: The model effectively applied Indian case law principles when answering conceptual questions, often alluding to landmark Indian judgments without explicitly naming them—a pattern consistent with fine-tuning on a corpus of Indian case law.
+4. **Judicial Precedent Application**: Court Easy AI effectively applied Indian case law principles when answering conceptual questions, often alluding to landmark Indian judgments without explicitly naming them—a pattern consistent with fine-tuning on a corpus of Indian case law.
 
 These qualitative aspects, beyond simple accuracy metrics, provide compelling evidence that Court Easy AI has been specifically trained on authentic Indian legal materials rather than general legal concepts.
 
@@ -205,9 +207,24 @@ AIBE-19 included numerous questions on the Bhartiya Nyaya Sanhita (BNS), Bhartiy
 | Labor Codes 2020 | 3 | 0 | 0.0 |
 | **Total** | **20** | **7** | **35.0** |
 
-Court Easy AI demonstrated relative strength in understanding the conceptual changes in new legislation while having some difficulties with precise section numbers. Its correct answer regarding Section 14 of the BSA for "course of business" evidence indicates specialized training on this new legislation. These patterns suggest Court Easy AI received some training on these recent codes, though perhaps not at the level of detailed section-by-section memorization.
+Court Easy AI demonstrated relative strength in understanding the conceptual changes in new legislation while having some difficulties with precise section numbers. Its correct answer regarding Section 14 of the BSA for "course of business" evidence indicates specialized training on this new legislation. These patterns suggest Court Easy AI received targeted training on these recent codes, though perhaps not at the level of detailed section-by-section memorization.
 
-<!-- ## Limitations and Future Directions
+## Domain Aligned AI: The Technology Behind Court Easy AI
+Court Easy AI's impressive performance on the AIBE examinations stems from Nugen Intelligence's foundational innovation in Domain Aligned AI technology. Unlike general-purpose AI that often struggles with reliability in specialized fields, Domain Aligned AI technology addresses reliability challenges at the deep learning architecture level, enabling AI to maintain consistent performance within strict professional boundaries.
+
+This approach has several key advantages for legal applications:
+
+- **Enhanced Reliability**: Domain Aligned AI significantly reduces hallucinations and factual errors in specialized contexts where precision is paramount.
+
+- **Contextual Understanding**: The technology enables deep comprehension of domain-specific terminology, reasoning patterns, and professional conventions unique to Indian legal practice.
+
+- **Professional Integration**: Domain Aligned AI can be adapted to complement existing legal technology ecosystems rather than competing with them, providing foundational capabilities that enhance various legal applications.
+
+
+Court Easy AI serves as both a demonstration of this technology's capabilities and a valuable tool for legal professionals. Rather than competing with existing legal-tech companies, Nugen Intelligence focuses on providing the foundational AI technology that enables reliable applications across the legal ecosystem. This collaborative approach positions Domain Aligned AI as a critical enabler for organizations seeking to build trustworthy AI solutions in high-stakes environments where errors are unacceptable.
+
+
+## Limitations and Future Directions
 
 Despite its strong performance, Court Easy AI still experienced challenges with some recent legislative provisions, particularly section number recall in the newest codes. Its performance drop between AIBE-18 (87.0%) and AIBE-19 (73.1%) indicates room for improvement in maintaining current knowledge of rapidly evolving Indian legal frameworks. Future fine-tuning iterations could address these limitations by incorporating the latest statutory amendments and case law developments.
 
@@ -217,11 +234,11 @@ Areas for targeted improvement include:
   
 2. **Technical Procedural Details**: Specific procedural nuances in both civil and criminal procedure caused difficulties, particularly regarding jurisdictional limitations and technical procedural exceptions.
 
-3. **Section Number Precision**: While Court Easy AI showed conceptual understanding of new legislation, precise section number recall in the newest codes presented challenges. -->
+3. **Section Number Precision**: While Court Easy AI showed conceptual understanding of new legislation, precise section number recall in the newest codes presented challenges.
 
 ## Conclusion
 
-The comprehensive evaluation of Court Easy AI provides compelling evidence of its specialized capabilities in Indian law. Its impressive overall accuracy (87.0% in AIBE-18), domain-specific strengths in criminal and procedural law, correct answers on technical legal questions, and high-quality explanations aligned with Indian legal convention all point to successful fine-tuning on Indian legal statutes and case judgements. 
+The comprehensive evaluation of Court Easy AI provides compelling evidence of its specialized capabilities in Indian law. Its impressive overall accuracy (87.0% in AIBE-18), strengths in criminal and procedural law, correct answers on technical legal questions, and high-quality explanations aligned with Indian legal convention all point to successful training on Indian legal statutes and case judgements. 
 
 Figure 6 provides a comprehensive dashboard of Court Easy AI's performance across key metrics:
 
@@ -229,11 +246,11 @@ Figure 6 provides a comprehensive dashboard of Court Easy AI's performance acros
 
 *Figure 6: Comprehensive performance dashboard for Court Easy AI showing key metrics*
 
-Most significantly, Court Easy AI consistently surpasses the 45% passing threshold for the AIBE exams (41.4 questions in AIBE-18 and 41.85 questions in AIBE-19) by substantial margins, correctly answering 80 and 68 questions respectively and demonstrating professional-level competency in Indian law that could revolutionize legal assistance technologies. The detailed error analysis reveals patterns consistent with a model specifically optimized for Indian legal practice—strong performance in areas well-covered by Indian case law (criminal, constitutional) with relatively fewer errors in highly technical or very recent legal provisions. 
+Most significantly, Court Easy AI consistently surpasses the 45% passing threshold for the AIBE exams (41.4 questions in AIBE-18 and 41.85 questions in AIBE-19) by substantial margins, correctly answering 80 and 68 questions respectively and demonstrating professional-level competency in Indian law that could revolutionize legal assistance technologies. The detailed error analysis reveals patterns consistent with a Court Easy AI specifically optimized for Indian legal practice—strong performance in areas well-covered by Indian case law (criminal, constitutional) with relatively fewer errors in highly technical or very recent legal provisions. 
 
-For legal professionals, educators, and students seeking AI assistance with Indian law, Court Easy AI demonstrates clear advantages. Its specialized training enables precise, contextually appropriate, and reliable legal analysis within the Indian legal framework. As AI continues to transform legal practice and education in India, models with domain-specific fine-tuning like Court Easy AI represent the gold standard for accurate and contextually appropriate legal AI assistance.
+For legal professionals, educators, and students seeking AI assistance with Indian law, Court Easy AI demonstrates clear advantages. Its specialized training with Nugen's Domain Aligned AI technology enables precise, contextually appropriate, and reliable legal analysis within the Indian legal framework. As AI continues to transform legal practice and education in India, Nugen's technology represents a foundational approach for creating accurate and contextually appropriate legal solutions. This technology can empower legal-tech organizations and technology-forward law firms to build reliable AI applications tailored to their specific organizational needs.
 
-Visit [www.courteasy.ai](https://courteasy.ai) today to sign up and immediately access Court Easy AI. For personalized guidance on integrating CourtEasy AI into your specific legal workflow, contact sales@courteasy.ai. 
+Visit [www.courteasy.ai](https://courteasy.ai) today to sign up and immediately access Court Easy AI. organizations interested in leveraging Nugen's Domain Aligned AI technology for their specific legal applications, or for personalized guidance on integrating Court Easy AI into your legal workflow, contact sales@courteasy.ai. 
 
 # Resources
 
